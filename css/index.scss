@@ -1,0 +1,34 @@
+@import "base";
+
+.section-1{
+  margin-bottom: 30px;
+}
+.intro-text h1{
+  text-align: center;
+}
+.recent-post{
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+input, select, textarea {
+  font-size: 50%;
+}
+input[type=text], [type=email] {
+  padding: .3rem;
+  width: 35%;
+  min-width: 300px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: $menuColor;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  border: 1px solid #4CAF50;
+  padding: .3rem 1rem;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+}
